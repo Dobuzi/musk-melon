@@ -1,0 +1,19 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.app-shell {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+@media (min-width: 481px) {
+  #root {
+    background-color: #ffffff !important;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
